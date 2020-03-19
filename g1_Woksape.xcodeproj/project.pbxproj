@@ -9,25 +9,33 @@
 /* Begin PBXBuildFile section */
 		A2D0A1412422F8C7004505F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0A1402422F8C7004505F8 /* AppDelegate.swift */; };
 		A2D0A1432422F8C7004505F8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2D0A1422422F8C7004505F8 /* GameScene.sks */; };
-		A2D0A1452422F8C7004505F8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2D0A1442422F8C7004505F8 /* Actions.sks */; };
 		A2D0A1472422F8C7004505F8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0A1462422F8C7004505F8 /* GameScene.swift */; };
 		A2D0A1492422F8C7004505F8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0A1482422F8C7004505F8 /* GameViewController.swift */; };
 		A2D0A14C2422F8C7004505F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D0A14A2422F8C7004505F8 /* Main.storyboard */; };
 		A2D0A14E2422F8C8004505F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D0A14D2422F8C8004505F8 /* Assets.xcassets */; };
 		A2D0A1512422F8C8004505F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D0A14F2422F8C8004505F8 /* LaunchScreen.storyboard */; };
+		A2D0A1592422F95F004505F8 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2D0A1582422F95F004505F8 /* level1.txt */; };
+		A2D0A15E2422F9D0004505F8 /* level4.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2D0A15A2422F9CF004505F8 /* level4.txt */; };
+		A2D0A15F2422F9D0004505F8 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2D0A15B2422F9CF004505F8 /* level2.txt */; };
+		A2D0A1602422F9D0004505F8 /* level3.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2D0A15C2422F9CF004505F8 /* level3.txt */; };
+		A2D0A1612422F9D0004505F8 /* level5.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2D0A15D2422F9CF004505F8 /* level5.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2D0A13D2422F8C7004505F8 /* g1_Woksape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = g1_Woksape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D0A1402422F8C7004505F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2D0A1422422F8C7004505F8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A2D0A1442422F8C7004505F8 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A2D0A1462422F8C7004505F8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A2D0A1482422F8C7004505F8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A2D0A14B2422F8C7004505F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2D0A14D2422F8C8004505F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2D0A1502422F8C8004505F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2D0A1522422F8C8004505F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D0A1582422F95F004505F8 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		A2D0A15A2422F9CF004505F8 /* level4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level4.txt; sourceTree = "<group>"; };
+		A2D0A15B2422F9CF004505F8 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		A2D0A15C2422F9CF004505F8 /* level3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level3.txt; sourceTree = "<group>"; };
+		A2D0A15D2422F9CF004505F8 /* level5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level5.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +70,17 @@
 			children = (
 				A2D0A1402422F8C7004505F8 /* AppDelegate.swift */,
 				A2D0A1422422F8C7004505F8 /* GameScene.sks */,
-				A2D0A1442422F8C7004505F8 /* Actions.sks */,
 				A2D0A1462422F8C7004505F8 /* GameScene.swift */,
 				A2D0A1482422F8C7004505F8 /* GameViewController.swift */,
 				A2D0A14A2422F8C7004505F8 /* Main.storyboard */,
 				A2D0A14D2422F8C8004505F8 /* Assets.xcassets */,
 				A2D0A14F2422F8C8004505F8 /* LaunchScreen.storyboard */,
 				A2D0A1522422F8C8004505F8 /* Info.plist */,
+				A2D0A1582422F95F004505F8 /* level1.txt */,
+				A2D0A15B2422F9CF004505F8 /* level2.txt */,
+				A2D0A15C2422F9CF004505F8 /* level3.txt */,
+				A2D0A15A2422F9CF004505F8 /* level4.txt */,
+				A2D0A15D2422F9CF004505F8 /* level5.txt */,
 			);
 			path = g1_Woksape;
 			sourceTree = "<group>";
@@ -131,11 +143,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D0A15E2422F9D0004505F8 /* level4.txt in Resources */,
+				A2D0A15F2422F9D0004505F8 /* level2.txt in Resources */,
+				A2D0A1592422F95F004505F8 /* level1.txt in Resources */,
+				A2D0A1602422F9D0004505F8 /* level3.txt in Resources */,
 				A2D0A14C2422F8C7004505F8 /* Main.storyboard in Resources */,
+				A2D0A1612422F9D0004505F8 /* level5.txt in Resources */,
 				A2D0A1432422F8C7004505F8 /* GameScene.sks in Resources */,
 				A2D0A14E2422F8C8004505F8 /* Assets.xcassets in Resources */,
 				A2D0A1512422F8C8004505F8 /* LaunchScreen.storyboard in Resources */,
-				A2D0A1452422F8C7004505F8 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YR599F2Z9Y;
 				INFOPLIST_FILE = g1_Woksape/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.krudnicki.g1-Woksape";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YR599F2Z9Y;
 				INFOPLIST_FILE = g1_Woksape/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.krudnicki.g1-Woksape";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

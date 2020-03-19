@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  g1_Woksape
-//
-//  Created by Kelly Rudnicki on 3/18/20.
-//  Copyright © 2020 Kelly Rudnicki. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
